@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Map"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:layout_width="258dp"
+        android:layout_height="62dp"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"
+        android:paddingTop="-10dp" />
+
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="This is the map. It has options to click on stores and select buy from there"
+        android:gravity="center" />
+
+</LinearLayout>
